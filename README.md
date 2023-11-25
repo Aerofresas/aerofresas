@@ -14,27 +14,22 @@ Funcionamiento del Proyecto: [https://youtu.be/9s7RzT5pfzQ](https://youtu.be/9s7
 
 - **Asequible**: Utiliza materiales reciclados y diseño económico para facilitar acceso general.
 
-- **Sostenible**: Encaminado al cumplimiento el [Objetivo de Desarrollo Sostenible # 13][Objetivo de desarrollo sostenible # 13].
+- **Sostenible**: Encaminado al cumplimiento el [Objetivo de Desarrollo Sostenible # 13][objetivo de desarrollo sostenible # 13][Objetivo de Desarrollo Sostenible # 6][objetivo de desarrollo sostenible # 6]
 
 ## Documentación
 
 El código de AEROFRESAS está dividido en 3 partes. **En cada uno de los repositorios se encuentra documentación más detallada**.
 
-- **[pipe-arduino:][pipe-arduino]** Sketch de Arduino programado en C++. Su función es recolectar mediante sensores y posteriormente enviar al servidor la humedad, temperatura y luminosidad del invernadero y verifica cada determinado tiempo si en el servidor hay una petición pendiente para activar una bombilla o una bomba de agua. Este corre en cualquier placa de desarrollo, se recomienda ESP 32.
-
-- **[pipe-server:][pipe-server]** Servidor escrito con Node.js. Este recibe los datos (humedad, temperatura, luminosidad) de la placa y los envía al frontend del usuario mediante una API. Mediante la misma API recibe las peticiones (activar bombilla, activar bomba de agua) del usuario para que la placa procese y ejecute. Corre en cualquier servicio de hosting que soporte Javascript.
-
-- **[pipe-frontend:][pipe-frontend]** Página web programada con React. Muestra los datos del invernadero y envía las peticiones al servidor. Es hosteado mediante Github Pages.
+- **[aerofresas-arduino:][aerofresas-arduino]** Sketch de Arduino programado en C++. Su función es recolectar mediante sensores y posteriormente enviar los datos a la pantalla oled de la humedad, temperatura del cultivo y activa los actuadores, bomba de aire, ventilador y bomba de riego de alta presión automaticamente segun los valores de los sensores
+- **[arduino-esp01:][arduino-esp01]** Sketch de Arduino programado en C++. Su función es enviar los valores que recibe del microcontrolador, para subirlos al servidor en FIREBASE.
+- **[aerofresas-app:][aerofresas-app]** Aplicación Android Studio con 3 pantallas: la primera para registro e ingreso de usuarios, la segunda que solicita datos al servidor y los muestra, y la tercera que proporciona información detallada sobre Aerofresas.
 
 ## Autores
 
-AEROFRESAS esta dirigido por **[Julian Franco][julian franco]**, **Zaida Guzman** y **[David Hurtado][david hurtado]**, estudiantes del **[Colegio Agustiniano Norte][colegio agustiniano norte]**, apoyados por el profesor **[William Andres Granada Campos][william andres granada campos]**.
+AEROFRESAS esta dirigido por **Lina Marcela Morales**, **Jhon Alexander Aguirre** y **Mateo Alejandro Cardona**, estudiantes de **I.E. Juan Pablo Gomez Ochoa**, apoyados por el profesor **Leao Simón Rodríguez**.
 
-[objetivo de desarrollo sostenible # 13]: https://www.un.org/sustainabledevelopment/es/climate-change-2/ "Objetivo de Desarrollo Sostenible # 13"
-[david hurtado]: https://santigo171.github.io/ "David Hurtado"
-[william andres granada campos]: https://www.linkedin.com/in/william-andres-granada-campos-b4017116/ "William Andres Granada Campos"
-[colegio agustiniano norte]: https://agustinianonorte.edu.co/ "Colegio Agustiniano Norte"
-[pipe-arduino]: https://github.com/Proyecto-Pipe/pipe-arduino "pipe-arduino"
-[julian franco]: https://www.instagram.com/Julianfranco_07/ "Julian Franco"
-[pipe-server]: https://github.com/Proyecto-Pipe/pipe-server "pipe-server"
-[pipe-frontend]: https://github.com/Proyecto-Pipe/pipe-frontend "pipe-frontend"
+[objetivo de desarrollo sostenible # 13]: https://www.un.org/sustainabledevelopment/climate-change/ "Objetivo de Desarrollo Sostenible # 13"
+[objetivo de desarrollo sostenible # 6]: https://www.un.org/sustainabledevelopment/es/water-and-sanitation/ "Objetivo de Desarrollo Sostenible # 6"
+[aerofresas-arduino]: https://github.com/Proyecto-Pipe/pipe-arduino "pipe-arduino"
+[arduino-esp01]: https://github.com/Proyecto-Pipe/pipe-server "pipe-server"
+[aerofresas-app]: https://github.com/Proyecto-Pipe/pipe-frontend "pipe-frontend"
