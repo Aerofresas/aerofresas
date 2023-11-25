@@ -30,6 +30,6 @@ AEROFRESAS esta dirigido por **Lina Marcela Morales**, **Jhon Alexander Aguirre*
 
 [objetivo de desarrollo sostenible # 13]: https://www.un.org/sustainabledevelopment/climate-change/ "Objetivo de Desarrollo Sostenible # 13"
 [objetivo de desarrollo sostenible # 6]: https://www.un.org/sustainabledevelopment/es/water-and-sanitation/ "Objetivo de Desarrollo Sostenible # 6"
-[aerofresas-arduino]: https://github.com/Proyecto-Pipe/pipe-arduino "pipe-arduino"
-[arduino-esp01]: https://github.com/Proyecto-Pipe/pipe-server "pipe-server"
-[aerofresas-app]: https://github.com/Proyecto-Pipe/pipe-frontend "pipe-frontend"
+[aerofresas-arduino]: https://github.com/Aerofresas/arduino_atmega328p/blob/main/Aerofresas_Opt_Comentarios_PWM.ino "arduino_atmega328p"
+[arduino-esp01]: https://github.com/Aerofresas/arduino-esp01/blob/main/Aerofresas_Firebase_2.ino "arduino-esp01"
+[aerofresas-app]: "aerofresas-app"
