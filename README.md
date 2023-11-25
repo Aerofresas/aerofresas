@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-# Proyecto P.I.P.E
+# AEROFRESAS
 
 [![Logo de Pipe](https://raw.githubusercontent.com/Proyecto-Pipe/pipe-frontend/main/public/logo.png "Logo de Pipe")](# "Logo de Pipe")
 
