@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 # AEROFRESAS
 
-[![Logo de Pipe](https://raw.githubusercontent.com/Proyecto-Pipe/pipe-frontend/main/public/logo.png "Logo de Pipe")](# "Logo de Pipe")
+[![documentacion imagen](https://github.com/Aerofresas/aerofresas/blob/main/poster.png?raw=true "documentacion imagen")](# "documentacion imagen")
 
 ### Proyecto Invernadero Pedagógico Estudiantil
 
