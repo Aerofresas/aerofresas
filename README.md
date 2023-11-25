@@ -1,41 +1,24 @@
-### Hi there 👋
-
-<!--
-**Aerofresas/aerofresas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
 # AEROFRESAS
 
 [![documentacion imagen](https://github.com/Aerofresas/aerofresas/blob/main/poster.png?raw=true "documentacion imagen")](# "documentacion imagen")
 
-### Proyecto Invernadero Pedagógico Estudiantil
+### AEROFRESAS, cultivo didáctico
 
-Presentación el proyecto: https://youtu.be/kD3DB3PJZvg
+Presentación el proyecto: [https://youtu.be/kD3DB3PJZvg ](https://youtu.be/RUXNvCBa0ak)
 
-**P.I.P.E** es un invernadero inteligente enfocado a instituciones educativas que busca promover en sus estudiantes un compromiso hacia el medio ambiente.
+Funcionamiento del Proyecto: [https://youtu.be/9s7RzT5pfzQ](https://youtu.be/9s7RzT5pfzQ)
 
-- **Didáctico**: Orientado al aprendizaje para todos los rangos de edad.
+**Aerofresas** Aerofresas es un proyecto educativo que utiliza la aeroponía para cultivar de manera sostenible, destacando la eficiencia en el uso del agua. Con enfoque en tecnologías innovadoras, busca sensibilizar sobre la mitigación de los impactos del cambio climático en comunidades académicas, promoviendo la conciencia ambiental y la capacidad de adaptación.
 
-- **Asequible**: Creado con componentes de electrónica y programación.
+- **Didáctico**: Promueve aprendizaje práctico y participativo para comprender tecnología agrícola avanzada.
 
-- **Sostenible**: Encaminado al cumplimiento el [Objetivo de Desarrollo Sostenible # 13][objetivo de desarrollo sostenible # 13].
+- **Asequible**: Utiliza materiales reciclados y diseño económico para facilitar acceso general.
+
+- **Sostenible**: Encaminado al cumplimiento el [Objetivo de Desarrollo Sostenible # 13][Objetivo de desarrollo sostenible # 13].
 
 ## Documentación
 
-El código de P.I.P.E está dividido en 3 partes. **En cada uno de los repositorios se encuentra documentación más detallada**.
-
-[![documentacion imagen](https://github.com/Proyecto-Pipe/.github/blob/main/pipe-architecture.jpg?raw=true "documentacion imagen")](# "documentacion imagen")
+El código de AEROFRESAS está dividido en 3 partes. **En cada uno de los repositorios se encuentra documentación más detallada**.
 
 - **[pipe-arduino:][pipe-arduino]** Sketch de Arduino programado en C++. Su función es recolectar mediante sensores y posteriormente enviar al servidor la humedad, temperatura y luminosidad del invernadero y verifica cada determinado tiempo si en el servidor hay una petición pendiente para activar una bombilla o una bomba de agua. Este corre en cualquier placa de desarrollo, se recomienda ESP 32.
 
@@ -45,7 +28,7 @@ El código de P.I.P.E está dividido en 3 partes. **En cada uno de los repositor
 
 ## Autores
 
-P.I.P.E ha sido creado por **[Julian Franco][julian franco]**, **Zaida Guzman** y **[David Hurtado][david hurtado]**, estudiantes del **[Colegio Agustiniano Norte][colegio agustiniano norte]**, apoyados por el profesor **[William Andres Granada Campos][william andres granada campos]**.
+AEROFRESAS esta dirigido por **[Julian Franco][julian franco]**, **Zaida Guzman** y **[David Hurtado][david hurtado]**, estudiantes del **[Colegio Agustiniano Norte][colegio agustiniano norte]**, apoyados por el profesor **[William Andres Granada Campos][william andres granada campos]**.
 
 [objetivo de desarrollo sostenible # 13]: https://www.un.org/sustainabledevelopment/es/climate-change-2/ "Objetivo de Desarrollo Sostenible # 13"
 [david hurtado]: https://santigo171.github.io/ "David Hurtado"
